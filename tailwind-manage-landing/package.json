@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-manage-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier-watch": "npx onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "build": "tailwindcss -i ./input.css -o ./output.css",
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9"
+  }
+}
